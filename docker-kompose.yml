@@ -58,7 +58,7 @@ services:
 
   
   backend:
-    image: 'tgogos/nef_emulatoer:v1.6.1_e35e6e'
+    image: 'tgogos/nef_emulator:v1.6.1_e35e6e'
     command: /start-reload.sh
     ports:
       - "${SERVER_PORT}:80"
